@@ -82,6 +82,7 @@ class Customers {
 					</p>
 					<p>
 						<a href='customer.php?fun=1' class='btn btn-success'>Create</a>
+						<a href='https://github.com/pjpiwowa/prog03' class='btn btn-success'>Source code</a>
 					</p>
 					<div class='row'>
 						<table class='table table-striped table-bordered'>
