@@ -82,7 +82,9 @@ class Customers {
 					</p>
 					<p>
 						<a href='customer.php?fun=1' class='btn btn-success'>Create</a>
+						<a href='dumb_upload.php' class='btn btn-danger'>Dumb File Upload</a>
 						<a href='https://github.com/pjpiwowa/prog03' class='btn btn-success'>Source code</a>
+						<a href='logout.php' class='btn btn-danger'>Logout</a>
 					</p>
 					<div class='row'>
 						<table class='table table-striped table-bordered'>
@@ -152,7 +154,7 @@ class Customers {
 		<div class='control_group <?php echo !empty($labelError) ? 'error' : ''; ?>'>
 			<label class='control-label'><?php echo $label ?></label>
 			<div class='controls'>
-				<input name='<?php echo $label ?>' type='file' />
+				<input name='<?php echo $label ?>' type='file' accept="image/png" />
 				<?php if (!empty($labelError)) { ?>
 					<span class='help-inline'><?php echo $labelError ?></span>
 				<?php } ?>
